@@ -1,0 +1,189 @@
+.pictures{
+    height: 100vh;
+    background-image: url(./instagram/instagram1.png);
+    background-size: 100% 100%;
+}
+.img{
+    height: 71vh;
+    width: 257px;
+    position: absolute;
+    left: 364px;
+    top: 90px;
+    background-size: 100% 100%;
+    background-image: url(./instagram/instagram2.jpg);
+    animation-name: yaho;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: steps(3); */
+    
+  
+}
+
+@keyframes yaho{
+    0%{}
+
+    25%{
+        background-image: url(./instagram/instagram3.jpg);
+        background-size: 100% 100%;
+        animation-duration: 10s;
+    
+    }
+    50%{
+        background-image: url(./instagram/instagram4.jpg);
+        background-size: 100% 100%;
+    
+        animation-duration: 10s;
+    
+    }
+    75%{
+        background-image: url(./instagram/instagram5.jpg);
+        background-size: 100% 100%;
+    
+        animation-duration: 10s;
+    
+    }
+    100%{
+        background-image: url(./instagram/instagram6.jpg);
+        background-size: 100% 100%;
+    
+        animation-duration: 10s;
+    
+    }
+}
+.insta{
+    height: 50px;
+    width: 60%;
+    /* position: absolute; */
+    margin-top: 20px;
+    margin-left: 20%;
+    background-image: url(./instagram/images.png);
+    /* border: 1px solid black; */
+    background-size: 100% 100%;
+}
+
+#name1{
+margin-top: 25%;
+    margin-left:10%;
+    width: 80%;
+height: w0px;
+}
+#email{
+    height: 30px;
+margin-top: 5%;
+margin-left:10%;
+
+    width: 80%;
+}
+#fname{
+   margin-top:5%;
+    margin-left:10%;
+    width: 80%;
+    height: 30px;
+
+}
+
+.btn{
+       margin-top: 10%;
+        margin-left:10%;
+        width: 80%;
+        height: 4 0px;
+        color: white;
+        background-color: turquoise;
+}
+.inst-logo{
+    height: 40px;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 20%;
+    background-image: url(./instagram/images.png);
+    background-size: 100% 100%;
+}
+.sreach{
+    height: 35px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.home-icon{
+    margin-top: 20px;
+    height: 30px;
+    width: 50px;
+}
+.img-profile{
+    height: 140px;
+    width: 120px;
+    margin-left: 50%;
+    margin-top: 20px;
+    background-image: url(./imgs/Salman_Khan_filmfare.jpg);
+    border-radius: 100%;
+    background-size: cover;
+}
+.salman{
+    height: 40vh;
+    /* border: 1px solid black; */
+    display: flex;
+ flex-wrap: wrap;   
+}
+.salman>h2{
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.btaan{
+    height: 30px;
+    border: 2px solid gray ;
+border-radius: 3px;
+margin-top: 25px;
+margin-left: 8px;
+background-color: white;
+}
+.botan{
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 25px;
+border-radius: 3px;
+color: white;
+    border: 1px solid #0095f6;
+    background-color: #0095f6;
+}
+.icon-down{
+height: 30px;
+margin-left: 10px;
+ margin-top: 25px;
+border-radius: 3px;
+color: white;
+border: 1px solid #0095f6;
+background-color: #0095f6;
+}
+.doos{
+background-color: white;
+border-style: none;
+height: 30px;
+font-size:30px;
+margin-top: 7px;
+margin-left: 6px;
+}
+.dangal{
+    position: relative;
+    top: -0px;
+}
+.do>h4{
+    padding-top: 20px;
+}
+.dangal>ul>li{
+list-style: none;
+font-size: 20px;
+}
+.card-body {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    margin-top: 20px;
+}
+.card-img-top{
+    height: 250px;
+}

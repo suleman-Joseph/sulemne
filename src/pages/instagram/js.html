@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <input id="name1" type="text" placeholder="name">
+    <input id="fname" type="text" placeholder="fname">
+    <input id="email" type="text" placeholder="email">
+  <button class="btn" onclick="sendme()">click here</button>
+<button class="btn1" onclick="clearlo()">clear</button>
+</body>
+<script>
+
+
+var inp=document.querySelectorAll("input")
+var btn=document.querySelector("button")
+
+
+
+const sendme=()=>{
+    var nam=document.getElementById('name1')
+    var faname=document.getElementById('fname')
+    var emai=document.getElementById('email')
+
+
+
+
+const obj={
+nam:nam.value,
+faname:faname.value,
+ emai:emai.value,
+
+}
+nam.value=""
+faname.value=""
+emai.value=""
+console.log(obj);
+
+var already=localStorage.getItem('key')
+
+if(!already){
+
+    localStorage.setItem('key',JSON.stringify([obj]))
+
+}
+else{
+ 
+var array=JSON.parse(already)
+array.push(obj)
+localStorage.setItem('key',JSON.stringify(array))
+
+}
+
+
+}
+const clearlo=()=>{
+
+    localStorage.clear()
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var name1=document.getElementById("name1")
+// var fname=document.getElementById("fname")
+// var email =document.getElementById("email")
+
+// const handleSave=()=>{
+// name1=name1.value
+// fname=fname.value
+// email=email.value
+
+// var obj={name1,fname,email}
+// localStorage.setItem("user",JSON.stringify(obj))
+
+
+// }
+
+
+
+
+// }
+</script>
+</html>
